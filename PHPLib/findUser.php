@@ -10,10 +10,10 @@ else {
 }
 
 function emptyInfo(){
-	print("<title>Access Denied</title><body><strong>Please fill in at least one field to search. Don't leave all fields blank.</strong></body>");
+	print("<title>Access Denied</title><body><strong>Please fill in at least one field to search. Don't leave all fields blank.</strong><br/><br/><a href="/Template/user.php">back</a></body>");
 }
 function emptyResult(){
-	print("<title>No Result</title><body><strong>Sorry, we can't find any result.</strong></body>");
+	print("<title>No Result</title><body><strong>Sorry, we can't find any result.</strong><br/><br/><a href="/Template/user.php">back</a></body>");
 }
 function render($data){
 	
@@ -27,7 +27,7 @@ function render($data){
 		print("</tr>");
 	}
 	
-	print("</table></body>");
+	print("</table><br/><br/><a href="/Template/user.php">back</a></body>");
 }
 
 function findUserFromDatabase($name, $email, $phone){
@@ -41,7 +41,7 @@ function findUserFromDatabase($name, $email, $phone){
 		$where[] = " CONCAT(homePhone, ',', cellPhone) LIKE '%$phone%'";
 	}
 	
-	$where_clause = implode(' OR ', $where);
+	$where_clause = implode(' AND ', $where);
 	
 	$query = "SELECT firstName, lastName, email, homeAddress, homePhone, cellPhone FROM User WHERE $where_clause";
 	
