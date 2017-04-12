@@ -10,10 +10,10 @@ else {
 }
 
 function emptyInfo(){
-	print("<title>Access Denied</title><body><strong>Please fill in at least one field to search. Don't leave all fields blank.</strong><br/><br/><a href="/Template/user.php">back</a></body>");
+	print("<title>Access Denied</title><body><strong>Please fill in at least one field to search. Don't leave all fields blank.</strong><br/><br/><a href=\"/Template/user.php\">back</a></body>");
 }
 function emptyResult(){
-	print("<title>No Result</title><body><strong>Sorry, we can't find any result.</strong><br/><br/><a href="/Template/user.php">back</a></body>");
+	print("<title>No Result</title><body><strong>Sorry, we can't find any result.</strong><br/><br/><a href=\"/Template/user.php\">back</a></body>");
 }
 function render($data){
 	
@@ -27,7 +27,7 @@ function render($data){
 		print("</tr>");
 	}
 	
-	print("</table><br/><br/><a href="/Template/user.php">back</a></body>");
+	print("</table><br/><br/><a href=\"/Template/user.php\">back</a></body>");
 }
 
 function findUserFromDatabase($name, $email, $phone){

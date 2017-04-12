@@ -43,17 +43,17 @@ function validatePhoneNumber($number){
 }
 
 function emptyInfo(){
-	print("<title>Access Denied</title><body><strong>Empty field(s) detected, please don't leave any field blank.</strong><br/><br/><a href="/Template/user.php">back</a></body>");
+	print("<title>Access Denied</title><body><strong>Empty field(s) detected, please don't leave any field blank.</strong><br/><br/><a href=\"/Template/user.php\">back</a></body>");
 	print("");
 }
 function invalidEmail($email){
-	print("<title>Access Denied</title><body><strong>Invalid email: $email.</strong><br/><br/><a href="/Template/user.php">back</a></body>");
+	print("<title>Access Denied</title><body><strong>Invalid email: $email.</strong><br/><br/><a href=\"/Template/user.php\">back</a></body>");
 }
 function invalidPhoneNumber(){
-	print("<title>Access Denied</title><body><strong>Invalid phone number. Please enter 10 digits ONLY.</strong><br/><br/><a href="/Template/user.php">back</a></body>");
+	print("<title>Access Denied</title><body><strong>Invalid phone number. Please enter 10 digits ONLY.</strong><br/><br/><a href=\"/Template/user.php\">back</a></body>");
 }
 function compeleteMessage(){
-	print("<title>Complete</title><body><strong>New User Creation Complete.</strong><br/><br/><a href="/Template/user.php">back</a></body>");
+	print("<title>Complete</title><body><strong>New User Creation Complete.</strong><br/><br/><a href=\"/Template/user.php\">back</a></body>");
 }
 function addToDatabase($firstName, $lastName, $email, $homeAddress, $homePhone, $cellPhone){
 	$query = "INSERT INTO User (firstName, lastName, email, homeAddress, homePhone, cellPhone) 
