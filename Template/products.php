@@ -25,13 +25,20 @@
 	<p>
 		We provide the most professional programming courses around the world.</br>
 		<ul>
-			<li>C/C++</li>
 			<li>Java</li>
+			<img src="/Pic/large/php.png" alt="PHP logo" style="width:75px;height:75px;">
 			<li>Python</li>
+			<img src="/Pic/large/php.png" alt="PHP logo" style="width:75px;height:75px;">
 			<li>PHP</li>
-			<li>MySQL/MSSQL/OracleSQL</li>
+			<img src="/Pic/large/php.png" alt="PHP logo" style="width:75px;height:75px;">
+			<li>MySQL</li>
+			<img src="/Pic/large/php.png" alt="PHP logo" style="width:75px;height:75px;">
 			<li>MongoDB</li>
+			<img src="/Pic/large/php.png" alt="PHP logo" style="width:75px;height:75px;">
 			<li>Redis</li>
+			<img src="/Pic/large/php.png" alt="PHP logo" style="width:75px;height:75px;">
+			<li>PHP + MySQL</li>
+			<img src="/Pic/large/php.png" alt="PHP logo" style="width:75px;height:75px;">
 		</ul>
 	</p>
 	
