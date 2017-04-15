@@ -26,19 +26,19 @@
 		We provide the most professional programming courses around the world.</br>
 		<ul>
 			<li>Java</li>
-			<img src="/Pic/large/php.png" alt="PHP logo" style="width:75px;height:75px;">
+			<img src="/Pic/large/java.png" alt="Java logo" style="height:75px;">
 			<li>Python</li>
-			<img src="/Pic/large/php.png" alt="PHP logo" style="width:75px;height:75px;">
+			<img src="/Pic/large/python.png" alt="Python logo" style="height:75px;">
 			<li>PHP</li>
-			<img src="/Pic/large/php.png" alt="PHP logo" style="width:75px;height:75px;">
+			<img src="/Pic/large/php.png" alt="PHP logo" style="height:75px;">
 			<li>MySQL</li>
-			<img src="/Pic/large/php.png" alt="PHP logo" style="width:75px;height:75px;">
+			<img src="/Pic/large/mysql.png" alt="MySQL logo" style="height:75px;">
 			<li>MongoDB</li>
-			<img src="/Pic/large/php.png" alt="PHP logo" style="width:75px;height:75px;">
+			<img src="/Pic/large/mongodb.png" alt="MongoDB logo" style="height:75px;">
 			<li>Redis</li>
-			<img src="/Pic/large/php.png" alt="PHP logo" style="width:75px;height:75px;">
+			<img src="/Pic/large/redis.png" alt="Redis logo" style="height:75px;">
 			<li>PHP + MySQL</li>
-			<img src="/Pic/large/php.png" alt="PHP logo" style="width:75px;height:75px;">
+			<img src="/Pic/large/php_mysql.png" alt="PHP+MySQL logo" style="height:75px;">
 		</ul>
 	</p>
 	
