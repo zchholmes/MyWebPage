@@ -46,6 +46,7 @@ function findUserFromDatabase($name, $email, $phone){
 	$query = "SELECT firstName, lastName, email, homeAddress, homePhone, cellPhone FROM User WHERE $where_clause";
 	
 	try {
+		// $con = new PDO ("mysql:host=54.67.4.28:3306;dbname=cmpe272", "cmpe272", "cmpe272pw");
 		$con = new PDO ("mysql:host=localhost;dbname=cmpe272", "cmpe272", "cmpe272pw");
 		$con->setAttribute( PDO:: ATTR_ERRMODE, PDO:: ERRMODE_EXCEPTION );
 

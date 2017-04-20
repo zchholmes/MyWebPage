@@ -31,3 +31,39 @@ INSERT INTO User (firstName, lastName, email, homeAddress, homePhone, cellPhone)
 ("Jason", "Bond", "jasonb@cmpe272.cmpe272", "12-5678 Some St. WA 23590", "2526374574", "4574573465"),
 ("Abe", "Bone", "abeb@cmpe272.cmpe272", "123-456 Some St. CA 67620", "2535676879", "4574574686"),
 ("Winston", "Hart", "winstonh@cmpe272.cmpe272", "45-678 Some St. MI 54890", "4754574757", "3463465678");
+
+
+CREATE TABLE Product (
+	productID INT NOT NULL AUTO_INCREMENT,
+	productName VARCHAR(100),
+	description VARCHAR(400),
+	priceOrig FLOAT(10),
+	priceNew FLOAT(10),
+	quantity INT,
+	rate FLOAT(10),
+	rated INT,
+	viewed INT,
+	smallPicUrl VARCHAR(100),
+	largePicUrl VARCHAR(100),
+	PRIMARY KEY (productID)
+);
+
+INSERT INTO Product (productName, description, priceOrig, priceNew, quantity, rate, rated, viewed, smallPicUrl, largePicUrl) VALUES
+("C/C++ 101", "Quick C/C++ introduction from zero C/C++ knowledge base", 29.99, 19.99, 999, 4.87, 101, 402, "/Pic/small/cpp.png", "/Pic/large/cpp.png"),
+("Java 101", "Quick Java introduction from zero Java knowledge base", 29.99, 19.99, 999, 4.87, 101, 402, "/Pic/small/java.png", "/Pic/large/java.png"),
+("Python 101", "Quick Python introduction from zero Python knowledge base", 29.99, 19.99, 999, 4.87, 101, 402, "/Pic/small/python.png", "/Pic/large/python.png"),
+("PHP 101", "Quick PHP introduction from zero PHP knowledge base", 29.99, 19.99, 999, 4.87, 101, 402, "/Pic/small/php.png", "/Pic/large/php.png"),
+("MySQL 101", "Quick MySQL introduction from zero MySQL knowledge base", 49.99, 29.99, 999, 4.87, 101, 402, "/Pic/small/mysql.png", "/Pic/large/mysql.png"),
+("MongoDB 101", "Quick MongoDB introduction from zero MongoDB knowledge base", 49.99, 29.99, 999, 4.87, 101, 402, "/Pic/small/mongodb.png", "/Pic/large/mongodb.png"),
+("Redis 101", "Quick Redis introduction from zero Redis knowledge base", 49.99, 29.99, 999, 4.87, 101, 402, "/Pic/small/redis.png", "/Pic/large/redis.png"),
+("Oracle Database 101", "Quick Oracle Database introduction from zero Oracle Database knowledge base", 49.99, 29.99, 999, 4.87, 101, 402, "/Pic/small/oracle.png", "/Pic/large/oracle.png"),
+("SQL Server 101", "Quick SQL Server introduction from zero SQL Server knowledge base", 49.99, 29.99, 999, 4.87, 101, 402, "/Pic/small/sqlserver.png", "/Pic/large/sqlserver.png"),
+("PHP+MySQL", "Combination PHP and MySQL professional Course. Include how to use each techniques, how to apply proper PHP together with MySQL and the advatages of the combination", 49.99, 29.99, 999, 4.87, 101, 402, "/Pic/small/php_mysql.png", "/Pic/large/php_mysql.png");
+
+
+
+
+
+
+
+
