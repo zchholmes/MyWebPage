@@ -37,8 +37,8 @@
 						print("<h3>Invalid Parameter.</h3>");
 					}
 					else {
-						require_once("../PHPlib/cookieUtility.php");
-						require_once("../PHPlib/renderProductDetails.php");
+						require_once("../PHPlib/CookieUtility.php");
+						require_once("../PHPlib/RenderProductDetails.php");
 						saveToCookie($_GET["productID"]);
 						showProductDetail($_GET["productID"]);
 					}
