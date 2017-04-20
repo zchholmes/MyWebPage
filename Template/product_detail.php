@@ -26,6 +26,8 @@
 	<a href="/Template/product_most.php">To View Most Viewed Courses</a>
 	<div>
 		<?php
+			require_once("../PHPLib/LoadFile.php");
+			printFile("../txtSrc/contact.txt");
 			if(!empty($_GET["productID"])){
 				if ($_GET["productID"] === "" || $_GET["productID"] === null){
 					print("<h3>Empty Parameter.</h3>");
