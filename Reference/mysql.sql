@@ -56,7 +56,7 @@ INSERT INTO Product (productName, description, priceOrig, priceNew, quantity, ra
 ("MySQL 101", "Quick MySQL introduction from zero MySQL knowledge base", 49.99, 29.99, 999, 4.87, 101, 402, "/Pic/small/mysql.png", "/Pic/large/mysql.png"),
 ("MongoDB 101", "Quick MongoDB introduction from zero MongoDB knowledge base", 49.99, 29.99, 999, 4.87, 101, 402, "/Pic/small/mongodb.png", "/Pic/large/mongodb.png"),
 ("Redis 101", "Quick Redis introduction from zero Redis knowledge base", 49.99, 29.99, 999, 4.87, 101, 402, "/Pic/small/redis.png", "/Pic/large/redis.png"),
-("Oracle Database 101", "Quick Oracle Database introduction from zero Oracle Database knowledge base", 49.99, 29.99, 999, 4.87, 101, 402, "/Pic/small/oracle.png", "/Pic/large/oracle.png"),
+("Oracle Database 101", "Quick Oracle Database introduction from zero Oracle Database knowledge base", 49.99, 29.99, 999, 4.87, 101, 402, "/Pic/small/oracle.jpg", "/Pic/large/oracle.jpg"),
 ("SQL Server 101", "Quick SQL Server introduction from zero SQL Server knowledge base", 49.99, 29.99, 999, 4.87, 101, 402, "/Pic/small/sqlserver.png", "/Pic/large/sqlserver.png"),
 ("PHP+MySQL", "Combination PHP and MySQL professional Course. Include how to use each techniques, how to apply proper PHP together with MySQL and the advatages of the combination", 49.99, 29.99, 999, 4.87, 101, 402, "/Pic/small/php_mysql.png", "/Pic/large/php_mysql.png");
 
