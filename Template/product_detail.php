@@ -202,7 +202,7 @@
 					print("<div>Course Name: " . $row["productName"] . "</div>");
 					print("<div>Price: $" . $row["priceNew"] . "</div>");
 					print("<div>Quantity: " . $row["quantity"] . "</div>");
-					print("</br><div>Description: " . $row["description"] . "</div></br>");
+					print("</br><div>Description: " . str_replace("&*&", "<br/>", $row["description"]) . "</div><br/>");
 					print("</div>");
 				}
 			}
