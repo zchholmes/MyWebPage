@@ -24,26 +24,21 @@
 	<p>
 		<div>
 			<h3>User List from local Domain</h3>
+			<?php
+				require_once("../PHPLib/showAllUser.php");
+				showUserList("http://cmpe272.zchholmes.cc/Template/allUser.php");
+			?>
+			
 		</div>
 		
 		<div>
 			<h3>User List from www.syt123450.com</h3>
+			<?php
+				require_once("../PHPLib/showAllUser.php");
+				showUserList("http://www.syt123450.com/phpLib/getUserInfo.php");
+			?>
 		</div>
-		
-		<div>
-			<h3>User List from forest</h3>
-		</div>
-		
-		
-		
-		
 	</p>
-	
-	<div>
-		<?php
-			
-		?>
-	</div>
 	
 	</br></br>
 	
