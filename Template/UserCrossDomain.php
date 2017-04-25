@@ -28,8 +28,13 @@
 				require_once("../PHPLib/showAllUser.php");
 				showUserList("http://cmpe272.zchholmes.cc/Template/allUser.php");
 			?>
+			<div>
+				CURL from <a href="http://cmpe272.zchholmes.cc/Template/allUser.php">http://cmpe272.zchholmes.cc/Template/allUser.php</a>
+			</div>
 			
 		</div>
+		
+		<br/><br/>
 		
 		<div>
 			<h3>User List from www.syt123450.com</h3>
@@ -37,6 +42,9 @@
 				require_once("../PHPLib/showAllUser.php");
 				showUserList("http://www.syt123450.com/phpLib/getUserInfo.php");
 			?>
+			<div>
+				CURL from <a href="http://www.syt123450.com/phpLib/getUserInfo.php">http://www.syt123450.com/phpLib/getUserInfo.php</a>
+			</div>
 		</div>
 	</p>
 	
