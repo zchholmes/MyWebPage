@@ -1,7 +1,7 @@
 <?php
 
 	if(!empty($_GET["productID"])){
-		if ($_GET["productID"] == "" || $_GET["productID"] == null){
+		if (empty($_GET["productID"])){
 			print("<h3>Empty Parameter.</h3>");
 		}
 		else {
